@@ -40,17 +40,41 @@
     citecolor = cyan
 }
 
+%%%%%%%%%%%%%% Preample.tex %%%%%%%%%%%%
 \theoremstyle{definition}
 
-\newtheorem{definition}{Definition}
+%\newtheorem{definition}{Definition}
+%\newtheorem{example}[definition]{Example}
+%\newtheorem{prop}[definition]{Proposition}
+%\newtheorem{lemma}[definition]{Lemma}
+%\newtheorem{thm}[definition]{Theorem}
+%\newtheorem{cor}[definition]{Corollary}
+%\newtheorem{rmk}[definition]{Remark}
+%\newtheorem{conj}[definition]{Conjecture}
 
-\newtheorem{example}[definition]{Example}
-\newtheorem{prop}[definition]{Proposition}
-\newtheorem{lemma}[definition]{Lemma}
-\newtheorem{thm}[definition]{Theorem}
-\newtheorem{cor}[definition]{Corollary}
-\newtheorem{rmk}[definition]{Remark}
-\newtheorem{conj}[definition]{Conjecture}
+
+\newtheorem{theorem}{Theorem}[section] %
+\newtheorem{corollary}[theorem]{Corollary} %
+\newtheorem{proposition}[theorem]{Proposition} %
+\newtheorem{lemma}[theorem]{Lemma} %
+\newtheorem{conjecture}[theorem]{Conjecture} %
+\newtheorem{exercise}[theorem]{Exercise} %
+\newtheorem{excerpt}[theorem]{Excerpt} %
+\newtheorem{definition}[theorem]{Definition} %
+\newtheorem{property}[theorem]{Property} %
+\newtheorem{scenario}[theorem]{Scenario} %
+\newtheorem{question}[theorem]{Question} %
+\newtheorem{axiom}[theorem]{Axiom} %
+\newtheorem{problem}[theorem]{Problem} %
+\newtheorem{assumption}[theorem]{Assumption} %
+\newtheorem{observation}[theorem]{Observation} %
+\newtheorem{research_idea}[theorem]{Research Idea} %
+\newtheorem{to_be_proved}{To Be Proved} %
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{claim}[theorem]{Claim}
+
+
+%%%%%%%%%%%%%% Preample.tex %%%%%%%%%%%%
 
 \usepackage{ifthen}
 
